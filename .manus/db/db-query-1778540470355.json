@@ -1,0 +1,121 @@
+{
+  "query": "SELECT table_name FROM information_schema.tables WHERE table_schema = DATABASE() AND table_name IN ('dataIngestionJobs','healthDirectoryCoverage','healthProviderAffiliations','healthProviderEvidences','healthProviderSources','healthProviderSpecialties','healthProviders') ORDER BY table_name;\nSELECT constraint_name, table_name FROM information_schema.table_constraints WHERE table_schema = DATABASE() AND table_name IN ('dataIngestionJobs','healthDirectoryCoverage','healthProviderAffiliations','healthProviderEvidences','healthProviderSources','healthProviderSpecialties','healthProviders') ORDER BY table_name, constraint_name;\nSELECT table_name, index_name FROM information_schema.statistics WHERE table_schema = DATABASE() AND table_name IN ('dataIngestionJobs','healthDirectoryCoverage','healthProviderAffiliations','healthProviderEvidences','healthProviderSources','healthProviderSpecialties','healthProviders') ORDER BY table_name, index_name;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway06.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3Zvq7rtDsgTdFHQ.root --database aPjFYwobCRagMEfTHEB9hk --execute SELECT table_name FROM information_schema.tables WHERE table_schema = DATABASE() AND table_name IN ('dataIngestionJobs','healthDirectoryCoverage','healthProviderAffiliations','healthProviderEvidences','healthProviderSources','healthProviderSpecialties','healthProviders') ORDER BY table_name;\nSELECT constraint_name, table_name FROM information_schema.table_constraints WHERE table_schema = DATABASE() AND table_name IN ('dataIngestionJobs','healthDirectoryCoverage','healthProviderAffiliations','healthProviderEvidences','healthProviderSources','healthProviderSpecialties','healthProviders') ORDER BY table_name, constraint_name;\nSELECT table_name, index_name FROM information_schema.statistics WHERE table_schema = DATABASE() AND table_name IN ('dataIngestionJobs','healthDirectoryCoverage','healthProviderAffiliations','healthProviderEvidences','healthProviderSources','healthProviderSpecialties','healthProviders') ORDER BY table_name, index_name;",
+  "rows": [
+    {
+      "table_name": "dataIngestionJobs"
+    },
+    {
+      "table_name": "healthDirectoryCoverage"
+    },
+    {
+      "table_name": "healthProviderAffiliations"
+    },
+    {
+      "table_name": "healthProviderEvidences"
+    },
+    {
+      "table_name": "healthProviderSources"
+    },
+    {
+      "table_name": "healthProviderSpecialties"
+    },
+    {
+      "table_name": "healthProviders"
+    },
+    {
+      "table_name": "constraint_name\ttable_name"
+    },
+    {
+      "table_name": "PRIMARY\tdataIngestionJobs"
+    },
+    {
+      "table_name": "dataIngestionJobs_requestedByUserId_users_id_fk\tdataIngestionJobs"
+    },
+    {
+      "table_name": "PRIMARY\thealthDirectoryCoverage"
+    },
+    {
+      "table_name": "hdc_source_municipality_unique\thealthDirectoryCoverage"
+    },
+    {
+      "table_name": "PRIMARY\thealthProviderAffiliations"
+    },
+    {
+      "table_name": "hpa_link_unique\thealthProviderAffiliations"
+    },
+    {
+      "table_name": "PRIMARY\thealthProviderEvidences"
+    },
+    {
+      "table_name": "PRIMARY\thealthProviderSources"
+    },
+    {
+      "table_name": "PRIMARY\thealthProviderSpecialties"
+    },
+    {
+      "table_name": "hps_provider_specialty_unique\thealthProviderSpecialties"
+    },
+    {
+      "table_name": "PRIMARY\thealthProviders"
+    },
+    {
+      "table_name": "table_name\tindex_name"
+    },
+    {
+      "table_name": "dataIngestionJobs\tPRIMARY"
+    },
+    {
+      "table_name": "dataIngestionJobs\tdataIngestionJobs_requestedByUserId_users_id_fk"
+    },
+    {
+      "table_name": "healthDirectoryCoverage\tPRIMARY"
+    },
+    {
+      "table_name": "healthDirectoryCoverage\thdc_source_municipality_unique"
+    },
+    {
+      "table_name": "healthDirectoryCoverage\thdc_source_municipality_unique"
+    },
+    {
+      "table_name": "healthDirectoryCoverage\thdc_source_municipality_unique"
+    },
+    {
+      "table_name": "healthProviderAffiliations\tPRIMARY"
+    },
+    {
+      "table_name": "healthProviderAffiliations\thpa_link_unique"
+    },
+    {
+      "table_name": "healthProviderAffiliations\thpa_link_unique"
+    },
+    {
+      "table_name": "healthProviderAffiliations\thpa_link_unique"
+    },
+    {
+      "table_name": "healthProviderEvidences\tPRIMARY"
+    },
+    {
+      "table_name": "healthProviderSources\tPRIMARY"
+    },
+    {
+      "table_name": "healthProviderSpecialties\tPRIMARY"
+    },
+    {
+      "table_name": "healthProviderSpecialties\thps_provider_specialty_unique"
+    },
+    {
+      "table_name": "healthProviderSpecialties\thps_provider_specialty_unique"
+    },
+    {
+      "table_name": "healthProviderSpecialties\thps_provider_specialty_unique"
+    },
+    {
+      "table_name": "healthProviders\tPRIMARY"
+    }
+  ],
+  "messages": [],
+  "stdout": "table_name\ndataIngestionJobs\nhealthDirectoryCoverage\nhealthProviderAffiliations\nhealthProviderEvidences\nhealthProviderSources\nhealthProviderSpecialties\nhealthProviders\nconstraint_name\ttable_name\nPRIMARY\tdataIngestionJobs\ndataIngestionJobs_requestedByUserId_users_id_fk\tdataIngestionJobs\nPRIMARY\thealthDirectoryCoverage\nhdc_source_municipality_unique\thealthDirectoryCoverage\nPRIMARY\thealthProviderAffiliations\nhpa_link_unique\thealthProviderAffiliations\nPRIMARY\thealthProviderEvidences\nPRIMARY\thealthProviderSources\nPRIMARY\thealthProviderSpecialties\nhps_provider_specialty_unique\thealthProviderSpecialties\nPRIMARY\thealthProviders\ntable_name\tindex_name\ndataIngestionJobs\tPRIMARY\ndataIngestionJobs\tdataIngestionJobs_requestedByUserId_users_id_fk\nhealthDirectoryCoverage\tPRIMARY\nhealthDirectoryCoverage\thdc_source_municipality_unique\nhealthDirectoryCoverage\thdc_source_municipality_unique\nhealthDirectoryCoverage\thdc_source_municipality_unique\nhealthProviderAffiliations\tPRIMARY\nhealthProviderAffiliations\thpa_link_unique\nhealthProviderAffiliations\thpa_link_unique\nhealthProviderAffiliations\thpa_link_unique\nhealthProviderEvidences\tPRIMARY\nhealthProviderSources\tPRIMARY\nhealthProviderSpecialties\tPRIMARY\nhealthProviderSpecialties\thps_provider_specialty_unique\nhealthProviderSpecialties\thps_provider_specialty_unique\nhealthProviderSpecialties\thps_provider_specialty_unique\nhealthProviders\tPRIMARY\n",
+  "stderr": "",
+  "execution_time_ms": 401
+}

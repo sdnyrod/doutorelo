@@ -1,0 +1,17 @@
+{
+  "index": 121,
+  "id": "c7swyVubuHM",
+  "title": "Projeto Renovação: [Gravação]: Resumo de Todas as Aulas",
+  "url": "https://www.youtube.com/watch?v=c7swyVubuHM",
+  "duration_seconds": 9018.0,
+  "duration_string": "2:30:18",
+  "initial_theme": "outros_a_classificar_por_transcricao",
+  "status": "failed",
+  "analysis_file": "research/dayan/corpus/video_analyses/121_c7swyVubuHM_Projeto_Renova_o_Grava_o_Resumo_de_Todas_as_Aulas.md",
+  "metadata_file": "research/dayan/corpus/video_analyses/121_c7swyVubuHM_Projeto_Renova_o_Grava_o_Resumo_de_Todas_as_Aulas.json",
+  "analysis_word_count": 42,
+  "analysis_char_count": 483,
+  "elapsed_seconds": 72.3,
+  "error": "Starting video analysis...\nSubmitting video analysis task...\nTask submitted (ID: video-analysis-cc097250-5511-4bea-8af4-eb2ecbd3d7f1)\n[8s] Status: Analyzing video content with AI...\n[33s] Still processing, please wait...\n[1m3s] Still processing, please wait...\n[1m12s] Status: Analysis failed\nError: analysis failed: analysis failed: activity error (type: ActivityAnalyzeVideo, scheduledEventID: 5, startedEventID: 6, identity: 1@vida-bizserver-video-analysis-worker-cf66f649b-jsxxx@): LLM Router returned status 400: {\"error\":{\"type\":\"invalid_request_error\",\"message\":\"StatusCode: 400: Error 400, Message: Request contains an invalid argument., Status: INVALID_ARGUMENT, Details: []\",\"code\":\"11110\",\"retry_able\":true}} (type: LLM_CLIENT_ERROR, retryable: false): LLM Router returned status 400: {\"error\":{\"type\":\"invalid_request_error\",\"message\":\"StatusCode: 400: Error 400, Message: Request contains an invalid argument., Status: INVALID_ARGUMENT, Details: []\",\"code\":\"11110\",\"retry_able\":true}}\nUsage:\n  manus-analyze-video <video_url_or_path> <prompt> [flags]\n\nExamples:\n  manus-analyze-video \"https://www.youtube.com/watch?v=xxx\" \"summarize the key points\"\n  manus-analyze-video \"/path/to/video.mp4\" \"describe what happens in this video\"\n\nFlags:\n  -h, --help      help for manus-analyze-video\n  -v, --version   version for manus-analyze-video\n\n",
+  "skipped": false
+}

@@ -1,0 +1,17 @@
+{
+  "index": 16,
+  "id": "tcaLQGmTbDA",
+  "title": "The risk of cancer when you suck on a lollipop or pacifier",
+  "url": "https://www.youtube.com/watch?v=tcaLQGmTbDA",
+  "duration_seconds": 659.0,
+  "duration_string": "10:59",
+  "initial_theme": "prevencao_alertas_risco",
+  "status": "completed",
+  "analysis_file": "research/dayan/corpus/video_analyses/016_tcaLQGmTbDA_The_risk_of_cancer_when_you_suck_on_a_lollipop_or_pacifier.md",
+  "metadata_file": "research/dayan/corpus/video_analyses/016_tcaLQGmTbDA_The_risk_of_cancer_when_you_suck_on_a_lollipop_or_pacifier.json",
+  "analysis_word_count": 1305,
+  "analysis_char_count": 8304,
+  "elapsed_seconds": 70.1,
+  "error": null,
+  "skipped": false
+}

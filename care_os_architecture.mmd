@@ -1,0 +1,35 @@
+flowchart TD
+    A[Usuário: sintomas, objetivos, hábitos, exames e contexto] --> B[Experiência premium de acolhimento]
+    B --> C[Consentimento, privacidade e preferências]
+    C --> D[Motor de triagem segura]
+    D --> D1[Regras determinísticas e red flags]
+    D --> D2[LLM com JSON Schema estrito]
+    D --> D3[RAG clínico curado]
+    D --> D4[Classificadores de risco e incerteza]
+    D1 --> E[Resposta estruturada e explicável]
+    D2 --> E
+    D3 --> E
+    D4 --> E
+    E --> F[Plano integrativo longitudinal]
+    F --> G[Timeline pessoal de saúde]
+    F --> H[Check-ins e metas comportamentais]
+    F --> I[Conteúdo recomendado]
+    F --> J[Encaminhamento humano]
+    J --> K[Rede de médicos e profissionais]
+    F --> L[Marketplace ético e separado da conduta]
+    E --> M[Auditoria, métricas e governança]
+    M --> N[Painel de segurança: red flags, fallback, incerteza, satisfação e outcomes]
+    M --> O[MLOps: testes, avaliação de prompts, drift, versionamento e rollback]
+    N --> P[Confiança pública e percepção premium]
+    O --> P
+    K --> P
+    H --> P
+
+    classDef user fill:#ecfeff,stroke:#0e7490,color:#083344
+    classDef ai fill:#eef2ff,stroke:#4f46e5,color:#1e1b4b
+    classDef trust fill:#fef3c7,stroke:#d97706,color:#78350f
+    classDef care fill:#ecfdf5,stroke:#059669,color:#064e3b
+    class A,B,C user
+    class D,D1,D2,D3,D4,E ai
+    class M,N,O,P trust
+    class F,G,H,I,J,K,L care

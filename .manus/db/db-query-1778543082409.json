@@ -1,0 +1,21 @@
+{
+  "query": "SELECT id, status, recordsSeen, recordsProcessed, recordsCreated, recordsUpdated, recordsSkipped, errorCount, completedAt FROM dataIngestionJobs WHERE id = 30001;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway06.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3Zvq7rtDsgTdFHQ.root --database aPjFYwobCRagMEfTHEB9hk --execute SELECT id, status, recordsSeen, recordsProcessed, recordsCreated, recordsUpdated, recordsSkipped, errorCount, completedAt FROM dataIngestionJobs WHERE id = 30001;",
+  "rows": [
+    {
+      "id": "30001",
+      "status": "completed",
+      "recordsSeen": "120",
+      "recordsProcessed": "117",
+      "recordsCreated": "0",
+      "recordsUpdated": "117",
+      "recordsSkipped": "3",
+      "errorCount": "0",
+      "completedAt": "2026-05-11 23:43:10"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tstatus\trecordsSeen\trecordsProcessed\trecordsCreated\trecordsUpdated\trecordsSkipped\terrorCount\tcompletedAt\n30001\tcompleted\t120\t117\t0\t117\t3\t0\t2026-05-11 23:43:10\n",
+  "stderr": "",
+  "execution_time_ms": 259
+}

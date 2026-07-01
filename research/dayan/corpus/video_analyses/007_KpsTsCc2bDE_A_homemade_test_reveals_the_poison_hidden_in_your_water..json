@@ -1,0 +1,17 @@
+{
+  "index": 7,
+  "id": "KpsTsCc2bDE",
+  "title": "A homemade test reveals the poison hidden in your water.",
+  "url": "https://www.youtube.com/watch?v=KpsTsCc2bDE",
+  "duration_seconds": 673.0,
+  "duration_string": "11:13",
+  "initial_theme": "nutricao_alimentos_bebidas",
+  "status": "completed",
+  "analysis_file": "research/dayan/corpus/video_analyses/007_KpsTsCc2bDE_A_homemade_test_reveals_the_poison_hidden_in_your_water..md",
+  "metadata_file": "research/dayan/corpus/video_analyses/007_KpsTsCc2bDE_A_homemade_test_reveals_the_poison_hidden_in_your_water..json",
+  "analysis_word_count": 1309,
+  "analysis_char_count": 8283,
+  "elapsed_seconds": 60.1,
+  "error": null,
+  "skipped": false
+}

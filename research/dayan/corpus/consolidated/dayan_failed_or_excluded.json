@@ -1,0 +1,13 @@
+[
+  {
+    "index": 121,
+    "video_id": "c7swyVubuHM",
+    "title": "Projeto Renovação: [Gravação]: Resumo de Todas as Aulas",
+    "url": "https://www.youtube.com/watch?v=c7swyVubuHM",
+    "duration_string": "2:30:18",
+    "status": "failed",
+    "analysis_word_count": 42,
+    "error": "Starting video analysis...\nSubmitting video analysis task...\nTask submitted (ID: video-analysis-cc097250-5511-4bea-8af4-eb2ecbd3d7f1)\n[8s] Status: Analyzing video content with AI...\n[33s] Still processing, please wait...\n[1m3s] Still processing, please wait...\n[1m12s] Status: Analysis failed\nError: analysis failed: analysis failed: activity error (type: ActivityAnalyzeVideo, scheduledEventID: 5, startedEventID: 6, identity: 1@vida-bizserver-video-analysis-worker-cf66f649b-jsxxx@): LLM Router returned status 400: {\"error\":{\"type\":\"invalid_request_error\",\"message\":\"StatusCode: 400: Error 400, Message: Request contains an invalid argument., Status: INVALID_ARGUMENT, Details: []\",\"code\":\"11110\",\"retry_able\":true}} (type: LLM_CLIENT_ERROR, retryable: false): LLM Router returned status 400: {\"error\":{\"type\":\"invalid_request_error\",\"message\":\"StatusCode: 400: Error 400, Message: Request contains an invalid argument., Status: INVALID_ARGUMENT, Details: []\",\"code\":\"11110\",\"retry_able\":true}}\nUsage:\n  manus-analyze-video <video_url_or_path> <prompt> [flags]\n\nExamples:\n  manus-analyze-video \"https://www.youtube.com/watch?v=xxx\" \"summarize the key points\"\n  manus-analyze-video \"/path/to/video.mp4\" \"describe what happens in this video\"\n\nFlags:\n  -h, --help      help for manus-analyze-video\n  -v, --version   version for manus-analyze-video\n\n",
+    "audit_note": "/home/ubuntu/saude-integrativa-ia-dev/research/dayan/corpus/video_121_access_audit.md"
+  }
+]

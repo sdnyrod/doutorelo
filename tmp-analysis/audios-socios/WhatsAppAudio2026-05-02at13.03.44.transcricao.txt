@@ -1,0 +1,24 @@
+Starting Speech-to-Text conversion...
+Transcribing audio file: tmp-analysis/audios-socios/WhatsAppAudio2026-05-02at13.03.44.wav, file size: 0.99 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 32.3 seconds
+Language: portuguese
+Timestamped segments:
+[00:00.0 - 00:30.0]  Muito simples, acho que você não tem o TikTok, mas se você baixar o TikTok lá, é um negócio só pra você ficar rolando vídeo, em tese né, você acha que é isso, e o povo baixa só pra ficar assistindo vídeo engraçado, vídeo curioso, o cara falando de água como você, enfim, você tá lá no TikTok também, mas tem escondido no TikTok, o TikTok Shopping, e ali você tá sendo exposto a um produto, de repente você cai no, cai pra comprar, mas tá escondido, ninguém baixa o TikTok,
+[00:30.0 - 00:32.0]  porque é uma loja, tipo Amazon.
+Complete transcription result saved to: /home/ubuntu/saude-integrativa-ia-dev/tmp-analysis/audios-socios/WhatsAppAudio2026-05-02at13.03.44_transcription_20260502_121012.json
+Plain text transcription saved to: /home/ubuntu/saude-integrativa-ia-dev/tmp-analysis/audios-socios/WhatsAppAudio2026-05-02at13.03.44_transcription_20260502_121012.txt
+[2J[H[3Jmanus-speech-to-text tmp-analysis/audios-socios/WhatsAppAudio2026-05-02at13.03.44.wav
+Starting Speech-to-Text conversion...
+Transcribing audio file: tmp-analysis/audios-socios/WhatsAppAudio2026-05-02at13.03.44.wav, file size: 0.99 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:30.0] Muito simples, acho que você não tem o TikTok, mas se você baixar o TikTok lá, é um negócio só pra você ficar rolando vídeo, em tese né, você acha que é isso, e o povo baixa só pra ficar assistindo vídeo engraçado, vídeo curioso, o cara falando de água como você, enfim, você tá lá no TikTok também, mas tem escondido no TikTok, o TikTok Shopping, e ali você tá sendo exposto a um produto, de repente você cai no, cai pra comprar, mas tá escondido, ninguém baixa o TikTok,
+[00:30.0 - 00:32.0] porque é uma loja, tipo Amazon.
+
+Completed transcription, JSON saved to /home/ubuntu/saude-integrativa-ia-dev/tmp-analysis/audios-socios/WhatsAppAudio2026-05-02at13.03.44_transcription_20260502_121012.json
+Plain text transcription saved to /home/ubuntu/saude-integrativa-ia-dev/tmp-analysis/audios-socios/WhatsAppAudio2026-05-02at13.03.44_transcription_20260502_121012.txt

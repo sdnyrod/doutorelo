@@ -1,0 +1,35 @@
+{
+  "valid_videos": 249,
+  "excluded_or_failed_videos": 1,
+  "chunks": 2405,
+  "total_words": 304022,
+  "average_words_per_valid_video": 1221.0,
+  "safety_relevant_chunks": 1539,
+  "themes": {
+    "beleza_pele_cabelo_envelhecimento": 3,
+    "circulacao_cardio_vascular": 8,
+    "emagrecimento_metabolismo": 32,
+    "habitos_rotina_estilo_de_vida": 2,
+    "hormonios_libido_sexualidade": 3,
+    "inflamacao_detox": 5,
+    "nutricao_alimentos_bebidas": 56,
+    "outros_a_classificar_por_transcricao": 92,
+    "prevencao_alertas_risco": 26,
+    "sono_energia_cognicao": 6,
+    "suplementos_vitaminas_compostos": 16
+  },
+  "query_themes": {
+    "agua_hidratacao": 236,
+    "cancer_prevencao": 77,
+    "diabetes_glicemia": 153,
+    "emagrecimento_obesidade": 122,
+    "figado_desintoxicacao": 76,
+    "hipertensao_coracao": 133,
+    "hormonios_energia": 145,
+    "inflamacao_dor": 242,
+    "intestino_estomago": 143,
+    "medicamentos_alertas": 145,
+    "sono_ansiedade_cerebro": 153,
+    "suplementos_chas": 227
+  }
+}

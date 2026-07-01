@@ -1,0 +1,32 @@
+Starting Speech-to-Text conversion...
+Transcribing audio file: tmp-analysis/audios-socios/WhatsAppAudio2026-05-02at13.04.14.wav, file size: 0.75 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 24.5 seconds
+Language: portuguese
+Timestamped segments:
+[00:00.0 - 00:05.8]  E, pra mim, a nossa proposta de valor é entregar de graça alguma coisa pro cara.
+[00:05.8 - 00:11.8]  Se ele entender que é, ele encontrar médicos, fazer consulta, sei lá, comprar suplemento,
+[00:11.8 - 00:14.0]  pô, vou procurar em outro lugar.
+[00:14.0 - 00:20.1]  Entregar de graça um E.A. que realmente esclarece pra você o que você precisa sobre saúde
+[00:20.1 - 00:21.9]  seria o atrativo, de fato.
+[00:21.9 - 00:23.7]  Até na LendPage tinha que ser pensado pra isso.
+Complete transcription result saved to: /home/ubuntu/saude-integrativa-ia-dev/tmp-analysis/audios-socios/WhatsAppAudio2026-05-02at13.04.14_transcription_20260502_121010.json
+Plain text transcription saved to: /home/ubuntu/saude-integrativa-ia-dev/tmp-analysis/audios-socios/WhatsAppAudio2026-05-02at13.04.14_transcription_20260502_121010.txt
+[2J[H[3Jmanus-speech-to-text tmp-analysis/audios-socios/WhatsAppAudio2026-05-02at13.04.14.wav
+Starting Speech-to-Text conversion...
+Transcribing audio file: tmp-analysis/audios-socios/WhatsAppAudio2026-05-02at13.04.14.wav, file size: 0.75 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:05.8] E, pra mim, a nossa proposta de valor é entregar de graça alguma coisa pro cara.
+[00:05.8 - 00:11.8] Se ele entender que é, ele encontrar médicos, fazer consulta, sei lá, comprar suplemento,
+[00:11.8 - 00:14.0] pô, vou procurar em outro lugar.
+[00:14.0 - 00:20.1] Entregar de graça um E.A. que realmente esclarece pra você o que você precisa sobre saúde
+[00:20.1 - 00:21.9] seria o atrativo, de fato.
+[00:21.9 - 00:23.7] Até na LendPage tinha que ser pensado pra isso.
+
+Completed transcription, JSON saved to /home/ubuntu/saude-integrativa-ia-dev/tmp-analysis/audios-socios/WhatsAppAudio2026-05-02at13.04.14_transcription_20260502_121010.json
+Plain text transcription saved to /home/ubuntu/saude-integrativa-ia-dev/tmp-analysis/audios-socios/WhatsAppAudio2026-05-02at13.04.14_transcription_20260502_121010.txt

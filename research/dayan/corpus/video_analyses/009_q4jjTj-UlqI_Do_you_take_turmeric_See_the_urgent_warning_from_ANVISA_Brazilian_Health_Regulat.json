@@ -1,0 +1,17 @@
+{
+  "index": 9,
+  "id": "q4jjTj-UlqI",
+  "title": "Do you take turmeric? See the urgent warning from ANVISA (Brazilian Health Regulatory Agency).",
+  "url": "https://www.youtube.com/watch?v=q4jjTj-UlqI",
+  "duration_seconds": 569.0,
+  "duration_string": "9:29",
+  "initial_theme": "prevencao_alertas_risco",
+  "status": "completed",
+  "analysis_file": "research/dayan/corpus/video_analyses/009_q4jjTj-UlqI_Do_you_take_turmeric_See_the_urgent_warning_from_ANVISA_Brazilian_Health_Regulat.md",
+  "metadata_file": "research/dayan/corpus/video_analyses/009_q4jjTj-UlqI_Do_you_take_turmeric_See_the_urgent_warning_from_ANVISA_Brazilian_Health_Regulat.json",
+  "analysis_word_count": 1185,
+  "analysis_char_count": 8344,
+  "elapsed_seconds": 56.6,
+  "error": null,
+  "skipped": false
+}

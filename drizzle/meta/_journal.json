@@ -1,0 +1,83 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1777647074993,
+      "tag": "0000_furry_franklin_storm",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1777718652448,
+      "tag": "0001_overconfident_skin",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1777726985160,
+      "tag": "0002_clumsy_patch",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1777732612514,
+      "tag": "0003_flashy_old_lace",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1777887130040,
+      "tag": "0004_spooky_miracleman",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1777887607499,
+      "tag": "0005_curved_puma",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1777888766899,
+      "tag": "0006_short_hydra",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1778006646896,
+      "tag": "0007_simple_lady_mastermind",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1778024692028,
+      "tag": "0008_curved_pandemic",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "5",
+      "when": 1778540428797,
+      "tag": "0009_watery_charles_xavier",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "5",
+      "when": 1782871260672,
+      "tag": "0010_purple_magus",
+      "breakpoints": true
+    }
+  ]
+}

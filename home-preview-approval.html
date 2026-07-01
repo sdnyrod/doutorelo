@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Preview visual Home DoutorElo — aprovação</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    @page { size: 16in 9in; margin: 0; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Poppins', Arial, sans-serif; color: #0D1B2D; background: #ffffff; }
+    .page { width: 16in; height: 9in; background: #ffffff; position: relative; overflow: hidden; page-break-after: always; }
+    .home-stage { position: absolute; inset: 0; background: #ffffff; }
+    .home-stage::before { content: ""; position: absolute; inset: 0.44in; border: 1px solid #E5E7EB; border-radius: 34px; background: linear-gradient(180deg, #FFFFFF 0%, #F7F8FA 100%); box-shadow: inset 0 0 0 1px rgba(255,255,255,0.86); }
+    .topbar { position: absolute; top: 0.62in; left: 0.78in; right: 0.78in; height: 0.78in; display: flex; align-items: center; justify-content: space-between; }
+    .brand-group { display: flex; align-items: center; gap: 0.22in; }
+    .menu { width: 0.56in; height: 0.56in; border-radius: 999px; display: grid; place-items: center; border: 1px solid #E5E7EB; background: #FFFFFF; box-shadow: 0 12px 28px rgba(13,27,45,0.07); }
+    .menu-lines { width: 0.25in; height: 0.16in; display: flex; flex-direction: column; justify-content: space-between; }
+    .menu-lines span { height: 2px; border-radius: 99px; background: #0D1B2D; }
+    .logo { width: 2.55in; height: auto; display: block; object-fit: contain; }
+    .status-pill { border: 1px solid #E5E7EB; background: #FFFFFF; border-radius: 999px; padding: 0.14in 0.24in; display: flex; align-items: center; gap: 0.1in; color: #3BC7A2; font-size: 0.12in; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; box-shadow: 0 10px 26px rgba(13,27,45,0.06); }
+    .status-dot { width: 0.07in; height: 0.07in; border-radius: 999px; background: #3BC7A2; }
+    .center-composition { position: absolute; left: 1.08in; right: 1.08in; top: 2.76in; }
+    .pulse-line-top { width: 3.15in; height: 0.34in; margin: 0 auto 0.48in; border: 1px solid #E5E7EB; border-radius: 999px; background: #FFFFFF; display: flex; align-items: center; justify-content: center; gap: 0.42in; box-shadow: 0 10px 24px rgba(13,27,45,0.04); }
+    .muted-line { width: 1.36in; height: 1px; background: #E5E7EB; }
+    .pulse-mark { width: 1.18in; height: 0.14in; }
+    .chat-shell { height: 1.18in; border-radius: 0.46in; border: 1.5px solid #E5E7EB; background: #FFFFFF; box-shadow: 0 18px 48px rgba(13,27,45,0.08); display: flex; align-items: center; padding: 0 0.26in 0 0.32in; position: relative; }
+    .chat-shell::before { content: ""; position: absolute; left: 0.32in; right: 0.32in; top: -1px; height: 2px; background: linear-gradient(90deg, transparent 0%, #FF2432 8%, #FF2432 18%, transparent 28%, transparent 72%, #FF2432 82%, #FF2432 92%, transparent 100%); opacity: 0.8; }
+    .intent-dot { width: 0.34in; height: 0.34in; border-radius: 999px; border: 1px solid #E5E7EB; display: grid; place-items: center; margin-right: 0.22in; background: #FFFFFF; }
+    .intent-dot::after { content: ""; width: 0.075in; height: 0.075in; background: #FF2432; border-radius: 999px; }
+    .placeholder { flex: 1; font-size: 0.22in; font-weight: 600; color: #6A7488; }
+    .send { width: 0.54in; height: 0.54in; border-radius: 999px; border: 1px solid #E5E7EB; background: #3BC7A2; color: #FFFFFF; display: grid; place-items: center; font-size: 0.25in; font-weight: 600; box-shadow: 0 12px 28px rgba(59,199,162,0.22); }
+    .trust-bar { position: absolute; left: 0.78in; right: 0.78in; bottom: 0.72in; min-height: 0.72in; border: 1px solid #E5E7EB; border-radius: 0.22in; background: #FFFFFF; display: flex; align-items: center; gap: 0.42in; padding: 0 0.28in; box-shadow: 0 12px 30px rgba(13,27,45,0.05); }
+    .trust-item { display: flex; align-items: center; gap: 0.12in; font-size: 0.13in; color: #3BC7A2; font-weight: 800; }
+    .micro-pulse { width: 0.38in; height: 0.1in; }
+    .approval-page { padding: 0.78in 1.02in; background: #FFFFFF; }
+    .approval-kicker { color: #3BC7A2; font-size: 0.14in; text-transform: uppercase; font-weight: 800; letter-spacing: 0.12em; }
+    h1 { margin: 0.12in 0 0.22in; font-size: 0.42in; line-height: 1.12; color: #0D1B2D; }
+    .approval-copy { max-width: 11in; font-size: 0.17in; line-height: 1.65; color: #6A7488; margin-bottom: 0.32in; }
+    table { border-collapse: collapse; width: 100%; font-size: 0.135in; color: #0D1B2D; }
+    th { text-align: left; background: #F7F8FA; color: #0D1B2D; font-weight: 800; }
+    td, th { border: 1px solid #E5E7EB; padding: 0.14in 0.18in; vertical-align: top; }
+    .prohibited { color: #FF2432; font-weight: 800; }
+    .allowed { color: #3BC7A2; font-weight: 800; }
+  </style>
+</head>
+<body>
+  <section class="page">
+    <div class="home-stage">
+      <header class="topbar">
+        <div class="brand-group">
+          <div class="menu" aria-hidden="true"><div class="menu-lines"><span></span><span></span><span></span></div></div>
+          <img class="logo" src="file:///home/ubuntu/webdev-static-assets/doutorelo-logo-branca-pulso-vermelho.png" alt="DoutorElo" />
+        </div>
+        <div class="status-pill"><span class="status-dot"></span>IA integrativa ativa</div>
+      </header>
+      <main class="center-composition">
+        <div class="pulse-line-top" aria-hidden="true">
+          <span class="muted-line"></span>
+          <svg class="pulse-mark" viewBox="0 0 120 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 9H32L38 9L43 4L49 14L55 9H72L78 5L84 13L90 9H120" stroke="#FF2432" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="chat-shell">
+          <div class="intent-dot"></div>
+          <div class="placeholder">Digite sua mensagem.</div>
+          <div class="send">→</div>
+        </div>
+      </main>
+      <footer class="trust-bar">
+        <div class="trust-item"><svg class="micro-pulse" viewBox="0 0 50 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H16L20 3L24 9L28 6H50" stroke="#FF2432" stroke-width="1.6" stroke-linecap="round"/></svg>Seus dados protegidos</div>
+        <div class="trust-item"><svg class="micro-pulse" viewBox="0 0 50 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H16L20 3L24 9L28 6H50" stroke="#3BC7A2" stroke-width="1.6" stroke-linecap="round"/></svg>Orientação segura</div>
+        <div class="trust-item"><svg class="micro-pulse" viewBox="0 0 50 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H16L20 3L24 9L28 6H50" stroke="#3BC7A2" stroke-width="1.6" stroke-linecap="round"/></svg>Encaminhamento quando necessário</div>
+      </footer>
+    </div>
+  </section>
+  <section class="page approval-page">
+    <div class="approval-kicker">Trava de aprovação antes de implementar</div>
+    <h1>Preview branco, sem mancha vermelha, sem interpretação livre</h1>
+    <p class="approval-copy">Este PDF é apenas uma proposta visual estática para aprovação. A Home real do aplicativo não será alterada antes da aprovação explícita. A futura implementação, se aprovada, deverá trocar somente a camada visual e preservar integralmente IA, validações, geolocalização, estados, handlers, chamadas tRPC, sugestões e navegação.</p>
+    <table>
+      <thead><tr><th>Critério</th><th>Aplicação no preview</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>Fundo predominante</td><td>Branco/off-white com superfície interna clara e borda névoa.</td><td class="allowed">Permitido</td></tr>
+        <tr><td>Mancha vermelha / névoa / fundo orgânico</td><td>Removidos. Não há halo vermelho amplo, nebulosa, gradiente vermelho ou partículas dominantes.</td><td class="prohibited">Proibido</td></tr>
+        <tr><td>Vermelho pulso</td><td>Usado apenas como linhas finas e microindicadores de pulso.</td><td class="allowed">Permitido</td></tr>
+        <tr><td>Verde elo</td><td>Usado apenas em status, botão e microacentos controlados.</td><td class="allowed">Permitido</td></tr>
+        <tr><td>Texto e hierarquia</td><td>Navy para marca/estrutura, steel para placeholder e informação secundária, Poppins como base tipográfica.</td><td class="allowed">Permitido</td></tr>
+        <tr><td>Funcionalidade</td><td>Nenhuma mudança funcional está sendo proposta neste PDF; ele é somente visual.</td><td class="allowed">Preservar</td></tr>
+      </tbody>
+    </table>
+  </section>
+</body>
+</html>

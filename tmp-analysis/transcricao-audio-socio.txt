@@ -1,0 +1,68 @@
+Starting Speech-to-Text conversion...
+Transcribing audio file: /home/ubuntu/saude-integrativa-ia-dev/tmp-analysis/socio-home-minimalista.wav, file size: 2.02 MB
+Transcription may take some time depending on file size and audio length...
+Transcription completed successfully!
+
+TRANSCRIPTION RESULT:
+Total Duration: 66.2 seconds
+Language: portuguese
+Timestamped segments:
+[00:00.0 - 00:05.7]  A minha preocupação é ser um produto de difícil compreensão para a pessoa
+[00:05.7 - 00:10.3]  e dela achar que só serve se ela for monitorar tudo para a saúde, entendeu?
+[00:10.3 - 00:12.9]  O desafio é fazer algo que mesmo que...
+[00:12.9 - 00:16.0]  Por exemplo, Chet ETT tem todas as potencialidades do mundo.
+[00:16.0 - 00:18.3]  Manuj, todas as potencialidades do mundo.
+[00:18.3 - 00:20.7]  Mas o cara que só quer entrar lá e tirar uma dúvida,
+[00:20.7 - 00:22.5]  qual é a população de Cianorte,
+[00:22.5 - 00:25.0]  o cara vai baixar para ter só para essa dúvida.
+[00:25.0 - 00:27.4]  O cara que vai só perguntar para que serve um suplemento,
+[00:27.4 - 00:29.8]  qual é o melhor suplemento para tal doença,
+[00:29.8 - 00:31.8]  que comece assim, entendeu?
+[00:31.8 - 00:34.6]  Tem que ser só isso, a porta de entrada.
+[00:34.6 - 00:40.6]  E aí, a gente puxar anamnésico do cara e ir oferecendo coisas,
+[00:40.6 - 00:42.4]  ir sugerindo rotinas,
+[00:42.4 - 00:44.2]  registre isso, registre aquilo,
+[00:44.2 - 00:46.0]  encontre um médico na tua região.
+[00:46.0 - 00:49.3]  Porque se o cara vir tudo isso de cara, é ruim.
+[00:49.3 - 00:51.7]  Eu não baixaria, eu como usuário não baixaria.
+[00:51.7 - 00:54.0]  Ah, eu não estou procurando médico agora, eu não baixaria.
+[00:54.0 - 00:57.2]  Se isso tudo estiver escondido dentro do aplicativo,
+[00:57.3 - 01:00.0]  aí nós temos, de fato, um produto que o cara quer comprar.
+[01:00.0 - 01:01.8]  É um cavalo de troia, né?
+[01:01.8 - 01:03.5]  O cara quer ter para usar,
+[01:03.5 - 01:06.2]  mas tem um monte de coisa escondida para vender para ele ali.
+Complete transcription result saved to: /home/ubuntu/saude-integrativa-ia-dev/tmp-analysis/socio-home-minimalista_transcription_20260502_120909.json
+Plain text transcription saved to: /home/ubuntu/saude-integrativa-ia-dev/tmp-analysis/socio-home-minimalista_transcription_20260502_120909.txt
+[2J[H[3Jmanus-speech-to-text /home/ubuntu/saude-integrativa-ia-dev/tmp-analysis/socio-home-minimalista.wav
+Starting Speech-to-Text conversion...
+Transcribing audio file: /home/ubuntu/saude-integrativa-ia-dev/tmp-analysis/socio-home-minimalista.wav, file size: 2.02 MB
+Transcription may take some time depending on file size and audio length...
+
+Snippet of transcribed content:
+[00:00.0 - 00:05.7] A minha preocupação é ser um produto de difícil compreensão para a pessoa
+[00:05.7 - 00:10.3] e dela achar que só serve se ela for monitorar tudo para a saúde, entendeu?
+[00:10.3 - 00:12.9] O desafio é fazer algo que mesmo que...
+[00:12.9 - 00:16.0] Por exemplo, Chet ETT tem todas as potencialidades do mundo.
+[00:16.0 - 00:18.3] Manuj, todas as potencialidades do mundo.
+[00:18.3 - 00:20.7] Mas o cara que só quer entrar lá e tirar uma dúvida,
+[00:20.7 - 00:22.5] qual é a população de Cianorte,
+[00:22.5 - 00:25.0] o cara vai baixar para ter só para essa dúvida.
+[00:25.0 - 00:27.4] O cara que vai só perguntar para que serve um suplemento,
+[00:27.4 - 00:29.8] qual é o melhor suplemento para tal doença,
+[00:29.8 - 00:31.8] que comece assim, entendeu?
+[00:31.8 - 00:34.6] Tem que ser só isso, a porta de entrada.
+[00:34.6 - 00:40.6] E aí, a gente puxar anamnésico do cara e ir oferecendo coisas,
+[00:40.6 - 00:42.4] ir sugerindo rotinas,
+[00:42.4 - 00:44.2] registre isso, registre aquilo,
+[00:44.2 - 00:46.0] encontre um médico na tua região.
+[00:46.0 - 00:49.3] Porque se o cara vir tudo isso de cara, é ruim.
+[00:49.3 - 00:51.7] Eu não baixaria, eu como usuário não baixaria.
+[00:51.7 - 00:54.0] Ah, eu não estou procurando médico agora, eu não baixaria.
+[00:54.0 - 00:57.2] Se isso tudo estiver escondido dentro do aplicativo,
+[00:57.3 - 01:00.0] aí nós temos, de fato, um produto que o cara quer comprar.
+[01:00.0 - 01:01.8] É um cavalo de troia, né?
+[01:01.8 - 01:03.5] O cara quer ter para usar,
+[01:03.5 - 01:06.2] mas tem um monte de coisa escondida para vender para ele ali.
+
+Completed transcription, JSON saved to /home/ubuntu/saude-integrativa-ia-dev/tmp-analysis/socio-home-minimalista_transcription_20260502_120909.json
+Plain text transcription saved to /home/ubuntu/saude-integrativa-ia-dev/tmp-analysis/socio-home-minimalista_transcription_20260502_120909.txt

@@ -1,0 +1,17 @@
+{
+  "index": 38,
+  "id": "6-JfZyyB2AY",
+  "title": "Which is worse? Soda or energy drink?",
+  "url": "https://www.youtube.com/watch?v=6-JfZyyB2AY",
+  "duration_seconds": 690.0,
+  "duration_string": "11:30",
+  "initial_theme": "nutricao_alimentos_bebidas",
+  "status": "completed",
+  "analysis_file": "research/dayan/corpus/video_analyses/038_6-JfZyyB2AY_Which_is_worse_Soda_or_energy_drink.md",
+  "metadata_file": "research/dayan/corpus/video_analyses/038_6-JfZyyB2AY_Which_is_worse_Soda_or_energy_drink.json",
+  "analysis_word_count": 1418,
+  "analysis_char_count": 9468,
+  "elapsed_seconds": 70.1,
+  "error": null,
+  "skipped": false
+}

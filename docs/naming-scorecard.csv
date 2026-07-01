@@ -1,0 +1,28 @@
+name,territory,distinctiveness,semantic_fit,phonetics_pt,globality,expandability,ai_balance,trust,risk_score,weighted_score,recommendation,notes
+Coraia,Coração/cuidado + IA,8.0,8.5,8.0,7.0,8.0,8.5,8.0,6.5,7.92,Shortlist principal,Excelente ponte entre cuidado e IA; atenção a famílias CORA/Coria em saúde/tech.
+Eloya,Elo/conexão humana,8.5,7.5,8.0,8.0,8.0,6.5,7.5,7.5,7.76,Shortlist principal,Preserva o território de elo sem “doutor”; baixo conflito direto em saúde nos primeiros resultados.
+Elunai,Luz/elo/luna/inteligência,8.0,7.5,7.5,7.5,8.0,7.5,7.0,7.0,7.57,Shortlist principal,"Neologismo com boa estética, risco conhecido menor, mas precisa significado proprietário."
+Mavya,Neologismo premium expansível,8.5,6.5,8.0,8.0,8.5,6.0,7.0,7.5,7.55,Shortlist principal,Muito distintivo e flexível; exige construção narrativa para saúde.
+Sovira,Transformação vital,8.0,7.5,8.0,7.5,8.0,6.0,7.0,7.0,7.48,Shortlist secundária,"Boa transformação, menos intuitivo; requer narrativa."
+Nalia,Cuidado humano premium,7.5,7.0,8.5,8.0,7.5,5.5,7.5,7.0,7.34,Shortlist secundária,Humano e acolhedor; menos forte em IA/ecossistema.
+Zentra,Centro/orquestração,7.5,7.5,7.5,7.5,8.0,6.5,7.0,4.5,7.18,Reserva / baixo encaixe,"Forte, mas já aparece em wellness, saúde e outros setores."
+Auvia,Aura + via,7.5,7.5,7.5,7.0,7.5,6.0,7.0,6.5,7.17,Shortlist secundária,Bom caminho de cuidado; risco moderado por similaridade em tech.
+Almaia,Alma + IA,7.0,8.0,8.0,7.0,7.0,7.0,8.0,4.0,7.16,Reserva / baixo encaixe,"Emocional, mas risco por Alamya Health, home health e clínica."
+Orialis,Origem/orientação/luz,7.5,7.5,7.0,7.0,7.5,6.0,7.0,7.0,7.15,Shortlist secundária,"Elegante, mas pronúncia pode variar."
+Cuidya,Cuidado + IA,7.0,8.5,8.0,5.5,7.0,8.5,8.0,2.5,7.13,Descartar como principal,"Muito claro em português, mas alto risco fonético com Caidya no setor clínico."
+Aivora,IA + aurora,7.0,8.0,7.5,7.0,7.5,9.0,6.5,2.5,7.1,Descartar como principal,Descartar como principal por uso já associado a IA médica e automação.
+Halora,Proteção/brilho/cuidado,7.5,7.0,8.0,7.0,7.5,5.5,7.0,6.5,7.09,Shortlist secundária,Acolhedor; cuidado com conotação religiosa de halo.
+Elovia,Elo + vida/via,7.0,8.0,8.0,7.0,7.0,6.5,7.5,4.0,7.06,Reserva / baixo encaixe,"Boa semântica, mas já há usos em sleep/wellness/ecommerce/health."
+Viora,Vida/orientação,7.0,8.0,8.5,7.0,7.0,6.0,8.0,3.0,7.04,Descartar como principal,Descartar como principal por Viora Health e proximidade direta.
+Nexora,Nexus/aurora,7.5,7.5,7.5,7.0,8.0,6.5,7.0,3.0,7.01,Descartar como principal,Descartar como principal por conflitos em suplementos/saúde.
+Veyra,Verdade/clareza,8.0,7.0,8.0,7.5,7.5,6.0,7.0,3.0,7.0,Descartar como principal,Uso relevante em wellness/respiratório; risco alto.
+Oriva,Origem/vida,7.5,7.5,8.0,7.0,7.5,6.0,7.0,3.0,6.95,Descartar como principal,Descartar como principal por Oriva Health.
+Lumora,Luz/clareza,7.0,7.0,8.0,7.5,7.0,5.5,7.0,4.5,6.82,Reserva / baixo encaixe,"Forte estética, mas checagem indicou risco relevante em classes sensíveis."
+Zelora,Zelo + aurora,7.0,7.5,7.5,6.5,7.0,5.0,7.0,5.5,6.78,Reserva / baixo encaixe,"Bom em português, mas já há uso comercial relevante e menor globalidade."
+Nuvora,Nuvem/aurora digital,7.0,7.0,8.0,7.0,7.0,6.0,7.0,4.0,6.78,Reserva / baixo encaixe,"Boa sonoridade, mas risco direto por uso corporativo em saúde."
+Alvora,Alvorada/renovação,7.0,7.5,8.0,7.0,7.0,5.5,7.0,3.5,6.78,Descartar como principal,Descartar como principal por Alvora Health.
+Elyra,Elo/Lyra/humano,7.0,6.5,8.0,7.5,7.0,5.0,7.0,5.5,6.76,Reserva / baixo encaixe,Boa sonoridade; Lyra é usado em saúde mental/tech.
+Synora,Sinapse/orquestração,7.0,7.0,7.5,7.0,7.5,7.0,6.5,3.0,6.76,Descartar como principal,Risco por software/marketplace/agendamento.
+Carelo,Care + elo,6.5,8.0,8.0,6.5,7.0,5.0,7.5,3.0,6.69,Descartar como principal,"Proximidade indesejada com Carelon, grande empresa de serviços de saúde."
+Luxara,Luz premium,7.0,6.5,7.5,7.5,7.0,4.5,6.5,6.0,6.64,Reserva / baixo encaixe,"Premium, mas mais cosmético/luxo do que saúde integrada."
+Auralis,Aura premium/IA,7.0,6.5,7.0,7.0,7.0,6.0,6.5,4.0,6.52,Reserva / baixo encaixe,Uso em IA e possível associação a áudio; risco alto.

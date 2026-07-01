@@ -1,0 +1,17 @@
+{
+  "index": 78,
+  "id": "Umh1khLMjaA",
+  "title": "SHOULD YOU WASH CHICKEN AND MEAT?",
+  "url": "https://www.youtube.com/watch?v=Umh1khLMjaA",
+  "duration_seconds": 115.0,
+  "duration_string": "1:55",
+  "initial_theme": "nutricao_alimentos_bebidas",
+  "status": "completed",
+  "analysis_file": "research/dayan/corpus/video_analyses/078_Umh1khLMjaA_SHOULD_YOU_WASH_CHICKEN_AND_MEAT.md",
+  "metadata_file": "research/dayan/corpus/video_analyses/078_Umh1khLMjaA_SHOULD_YOU_WASH_CHICKEN_AND_MEAT.json",
+  "analysis_word_count": 979,
+  "analysis_char_count": 6453,
+  "elapsed_seconds": 40.9,
+  "error": null,
+  "skipped": false
+}

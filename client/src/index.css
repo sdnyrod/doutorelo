@@ -1,0 +1,420 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * DOUTORELO MIV — Design Tokens
+ * Source of truth: MIV oficial (46 páginas)
+ *
+ * Paleta:
+ *   Navy Clínico   #0F1B33  — Base de confiança
+ *   Pulso Verde    #6EC1B4  — Vitalidade e cuidado
+ *   Azul Conexão   #3B82F6  — Tecnologia e navegação
+ *   Ciano Dados    #22D3EE  — Análise e inteligência
+ *   Violeta IA     #8B5CF6  — Camada cognitiva
+ *   Âmbar Atenção  #F59E0B  — Alertas e prioridade
+ *   Coral Humano   #F97373  — Comunidade e acolhimento
+ *   Mist Clínico   #E7ECF2  — Fundos e interfaces
+ *
+ * Tipografia:
+ *   Lexend — títulos, chamadas, números de impacto
+ *   Poppins — textos, UI, legendas, tabelas, especificações
+ */
+
+@theme inline {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Lexend", "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lexend", "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --radius: 0.75rem;
+
+  /* MIV tokens */
+  --miv-navy: #0F1B33;
+  --miv-pulso: #6EC1B4;
+  --miv-azul: #3B82F6;
+  --miv-ciano: #22D3EE;
+  --miv-violeta: #8B5CF6;
+  --miv-ambar: #F59E0B;
+  --miv-coral: #F97373;
+  --miv-mist: #E7ECF2;
+
+  /* shadcn/ui semantic mapping — Light mode */
+  --background: #FFFFFF;
+  --foreground: #0F1B33;
+  --card: #FFFFFF;
+  --card-foreground: #0F1B33;
+  --popover: #FFFFFF;
+  --popover-foreground: #0F1B33;
+  --primary: #0F1B33;
+  --primary-foreground: #FFFFFF;
+  --secondary: #E7ECF2;
+  --secondary-foreground: #0F1B33;
+  --muted: #E7ECF2;
+  --muted-foreground: #64748B;
+  --accent: #E7ECF2;
+  --accent-foreground: #0F1B33;
+  --destructive: #F97373;
+  --destructive-foreground: #FFFFFF;
+  --border: #E7ECF2;
+  --input: #E7ECF2;
+  --ring: #6EC1B4;
+
+  /* Charts — MIV functional colors */
+  --chart-1: #6EC1B4;
+  --chart-2: #3B82F6;
+  --chart-3: #22D3EE;
+  --chart-4: #8B5CF6;
+  --chart-5: #F59E0B;
+
+  /* Sidebar */
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #0F1B33;
+  --sidebar-primary: #0F1B33;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #E7ECF2;
+  --sidebar-accent-foreground: #0F1B33;
+  --sidebar-border: #E7ECF2;
+  --sidebar-ring: #6EC1B4;
+
+  /* Legacy compat aliases */
+  --doutorelo-ink: #0D1B2D;
+  --doutorelo-deep: #0D1B2D;
+  --doutorelo-teal: #6EC1B4;
+  --doutorelo-mint: #ffffff;
+  --doutorelo-aqua: #ffffff;
+  --doutorelo-foam: #F7F8FA;
+  --doutorelo-border: #E5E7EB;
+  --doutorelo-spectrum-cyan: #22D3EE;
+  --doutorelo-spectrum-coral: #F97373;
+  --doutorelo-abyss: #0D1B2D;
+  --doutorelo-luminous-white: rgba(255, 255, 255, 0.92);
+}
+
+.dark {
+  --background: #0F1B33;
+  --foreground: #FFFFFF;
+  --card: #162240;
+  --card-foreground: #FFFFFF;
+  --popover: #162240;
+  --popover-foreground: #FFFFFF;
+  --primary: #6EC1B4;
+  --primary-foreground: #0F1B33;
+  --secondary: #1E2D4A;
+  --secondary-foreground: #E7ECF2;
+  --muted: #1E2D4A;
+  --muted-foreground: #94A3B8;
+  --accent: #1E2D4A;
+  --accent-foreground: #E7ECF2;
+  --destructive: #F97373;
+  --destructive-foreground: #FFFFFF;
+  --border: #1E2D4A;
+  --input: #1E2D4A;
+  --ring: #6EC1B4;
+  --sidebar: #0F1B33;
+  --sidebar-foreground: #FFFFFF;
+  --sidebar-primary: #6EC1B4;
+  --sidebar-primary-foreground: #0F1B33;
+  --sidebar-accent: #1E2D4A;
+  --sidebar-accent-foreground: #E7ECF2;
+  --sidebar-border: #1E2D4A;
+  --sidebar-ring: #6EC1B4;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: clip;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    background: #ffffff;
+    min-width: 320px;
+    max-width: 100vw;
+    overflow-x: clip;
+  }
+
+  body::before,
+  body::after {
+    content: none;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  [type="button"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  a[href],
+  select:not(:disabled),
+  input[type="checkbox"]:not(:disabled),
+  input[type="radio"]:not(:disabled) {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .flex {
+    min-height: 0;
+    min-width: 0;
+  }
+
+  /* MIV-aligned card styles */
+  .glass-panel {
+    @apply border border-[#E7ECF2] bg-white shadow-[0_18px_70px_rgba(15,27,51,0.06)];
+  }
+
+  .premium-card {
+    @apply rounded-xl border border-[#E7ECF2] bg-white shadow-[0_22px_80px_rgba(15,27,51,0.06)];
+  }
+
+  .aurora-card {
+    @apply relative overflow-hidden rounded-2xl border border-[#E7ECF2] bg-white shadow-[0_30px_90px_rgba(15,27,51,0.06)];
+  }
+
+  .touchable {
+    @apply transition-all duration-300 ease-out hover:-translate-y-0.5 hover:shadow-[0_28px_90px_rgba(15,27,51,0.10)] active:translate-y-0;
+  }
+
+  .thumb-safe-bottom {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+
+  .app-shell-content {
+    min-height: 100dvh;
+    max-width: 100vw;
+    overflow-x: clip;
+  }
+
+  @media (max-width: 767px) {
+    .app-shell-content {
+      padding-bottom: calc(6.75rem + env(safe-area-inset-bottom));
+    }
+  }
+
+  .serif-accent {
+    font-family: var(--font-display);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      max-width: 1320px;
+    }
+  }
+}
+
+::selection {
+  background: rgba(110, 193, 180, 0.20);
+  color: var(--miv-navy);
+}
+
+/* MIV functional color utilities */
+@layer utilities {
+  .text-miv-navy { color: #0F1B33; }
+  .text-miv-pulso { color: #6EC1B4; }
+  .text-miv-azul { color: #3B82F6; }
+  .text-miv-ciano { color: #22D3EE; }
+  .text-miv-violeta { color: #8B5CF6; }
+  .text-miv-ambar { color: #F59E0B; }
+  .text-miv-coral { color: #F97373; }
+
+  .bg-miv-navy { background-color: #0F1B33; }
+  .bg-miv-pulso { background-color: #6EC1B4; }
+  .bg-miv-azul { background-color: #3B82F6; }
+  .bg-miv-ciano { background-color: #22D3EE; }
+  .bg-miv-violeta { background-color: #8B5CF6; }
+  .bg-miv-ambar { background-color: #F59E0B; }
+  .bg-miv-coral { background-color: #F97373; }
+  .bg-miv-mist { background-color: #E7ECF2; }
+
+  .border-miv-pulso { border-color: #6EC1B4; }
+  .border-miv-azul { border-color: #3B82F6; }
+  .border-miv-navy { border-color: #0F1B33; }
+  .border-miv-mist { border-color: #E7ECF2; }
+
+  .font-display { font-family: "Lexend", "Poppins", ui-sans-serif, system-ui, sans-serif; }
+}
+
+/* ─── Alien UI system — structural classes required by contract tests ─── */
+
+.alien-lumen { display: none; }
+
+.alien-send-button::after { content: none; }
+
+.alien-composer-capsule::before,
+.alien-composer-capsule::after { content: none; display: none; }
+
+.alien-master-capsule {
+  animation: master-graceful-side 600ms ease-out both;
+  will-change: opacity, transform;
+}
+
+.alien-master-capsule::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0;
+  animation: master-card-illumination 2.4s ease-in-out 0.6s infinite alternate;
+  background: radial-gradient(ellipse at 30% 20%, rgba(110,193,180,0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.alien-master-capsule::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0.64;
+  animation: master-soft-shimmer 3.2s ease-in-out 1.2s infinite alternate;
+  background: linear-gradient(135deg, transparent 40%, rgba(255,255,255,0.08) 50%, transparent 60%);
+  pointer-events: none;
+}
+
+.alien-master-capsule:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 28px 80px rgba(13,27,45,0.16);
+  animation: master-attention-breathe 1.6s ease-in-out infinite alternate;
+}
+
+@keyframes master-graceful-side {
+  from { opacity: 0; transform: translateX(1.5rem) scale(0.96); }
+  to { opacity: 1; transform: translateX(0) scale(1); }
+}
+
+@keyframes master-card-illumination {
+  from { opacity: 0; }
+  to { opacity: 0.4; }
+}
+
+@keyframes master-soft-shimmer {
+  from { opacity: 0.64; background-position: -200% 0; }
+  to { opacity: 0.3; background-position: 200% 0; }
+}
+
+@keyframes master-attention-breathe {
+  from { box-shadow: 0 28px 80px rgba(13,27,45,0.16); }
+  to { box-shadow: 0 32px 90px rgba(13,27,45,0.20); }
+}
+
+/* ─── Hesitation guide bubble positions ─── */
+
+.alien-intent-fragment--subtle-left {
+  position: absolute;
+  left: 6%;
+  bottom: calc(100% + 1.2rem);
+  transform: translateX(0) translateY(0.22rem) !important;
+  will-change: opacity;
+}
+
+.alien-intent-fragment--subtle-center-high {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 2.8rem);
+  transform: translateX(-50%) translateY(0.22rem) !important;
+  will-change: opacity;
+}
+
+.alien-intent-fragment--subtle-right {
+  position: absolute;
+  right: 6%;
+  bottom: calc(100% + 1.2rem);
+  transform: translateX(0) translateY(0.22rem) !important;
+  will-change: opacity;
+}
+
+.alien-intent-fragment--subtle-center-low {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 0.8rem);
+  transform: translateX(-50%) translateY(0.22rem) !important;
+  will-change: opacity;
+}
+
+/* ─── Hesitation guide bubble readable style ─── */
+
+.hesitation-guide-bubble--readable {
+  font-weight: 400 !important;
+  color: #64748B !important;
+  animation: hesitation-guide-dynamic-appear 260ms ease-out both !important;
+  will-change: opacity;
+}
+
+@keyframes hesitation-guide-dynamic-appear {
+  from { opacity: 0; transform: translateY(0.5rem); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .alien-master-capsule,
+  .alien-master-capsule::before,
+  .alien-master-capsule::after,
+  .alien-master-capsule:hover,
+  .hesitation-guide-bubble--readable {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "query": "SELECT 'providers_ac_cnes' AS metric, COUNT(*) AS value FROM healthProviders WHERE state = 'AC' AND verificationStatus = 'source_verified' AND status = 'pending_review' UNION ALL SELECT 'sources_cnes_datasus_pf', COUNT(*) FROM healthProviderSources WHERE sourceKey = 'cnes_datasus_pf' UNION ALL SELECT 'evidences_job_30001', COUNT(*) FROM healthProviderEvidences WHERE ingestionJobId = 30001 UNION ALL SELECT 'coverage_rows_cnes', COUNT(*) FROM healthDirectoryCoverage WHERE sourceKey = 'cnes_datasus_pf';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway06.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3Zvq7rtDsgTdFHQ.root --database aPjFYwobCRagMEfTHEB9hk --execute SELECT 'providers_ac_cnes' AS metric, COUNT(*) AS value FROM healthProviders WHERE state = 'AC' AND verificationStatus = 'source_verified' AND status = 'pending_review' UNION ALL SELECT 'sources_cnes_datasus_pf', COUNT(*) FROM healthProviderSources WHERE sourceKey = 'cnes_datasus_pf' UNION ALL SELECT 'evidences_job_30001', COUNT(*) FROM healthProviderEvidences WHERE ingestionJobId = 30001 UNION ALL SELECT 'coverage_rows_cnes', COUNT(*) FROM healthDirectoryCoverage WHERE sourceKey = 'cnes_datasus_pf';",
+  "rows": [
+    {
+      "metric": "coverage_rows_cnes",
+      "value": "5"
+    },
+    {
+      "metric": "sources_cnes_datasus_pf",
+      "value": "117"
+    },
+    {
+      "metric": "evidences_job_30001",
+      "value": "351"
+    },
+    {
+      "metric": "providers_ac_cnes",
+      "value": "114"
+    }
+  ],
+  "messages": [],
+  "stdout": "metric\tvalue\ncoverage_rows_cnes\t5\nsources_cnes_datasus_pf\t117\nevidences_job_30001\t351\nproviders_ac_cnes\t114\n",
+  "stderr": "",
+  "execution_time_ms": 273
+}

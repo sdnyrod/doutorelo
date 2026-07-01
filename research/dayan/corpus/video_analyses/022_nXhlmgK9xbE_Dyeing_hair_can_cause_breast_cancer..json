@@ -1,0 +1,17 @@
+{
+  "index": 22,
+  "id": "nXhlmgK9xbE",
+  "title": "Dyeing hair can cause breast cancer.",
+  "url": "https://www.youtube.com/watch?v=nXhlmgK9xbE",
+  "duration_seconds": 708.0,
+  "duration_string": "11:48",
+  "initial_theme": "prevencao_alertas_risco",
+  "status": "completed",
+  "analysis_file": "research/dayan/corpus/video_analyses/022_nXhlmgK9xbE_Dyeing_hair_can_cause_breast_cancer..md",
+  "metadata_file": "research/dayan/corpus/video_analyses/022_nXhlmgK9xbE_Dyeing_hair_can_cause_breast_cancer..json",
+  "analysis_word_count": 1374,
+  "analysis_char_count": 9002,
+  "elapsed_seconds": 56.6,
+  "error": null,
+  "skipped": false
+}
